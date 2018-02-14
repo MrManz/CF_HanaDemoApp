@@ -1,0 +1,10 @@
+---
+applications:
+
+- name: ToDoService
+  memory: 512M
+  host: ToDoService_random
+  path: target/ToDoService.war
+  buildpack: sap_java_buildpack
+  env:
+    destinations: '[{name: "ErpQueryEndpoint", url: "https://sapes4.sapdevcenter.com", username: "", password: ""}]'

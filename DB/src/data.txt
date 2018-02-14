@@ -1,0 +1,3 @@
+id,title,status,note
+1,Arbeiten,OnHold, Work
+2,Schulung, Laufend, CF

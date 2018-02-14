@@ -1,0 +1,10 @@
+context ToDo {
+
+    /*@@layout{"layoutInfo":{"x":-148,"y":-50.5}}*/
+    entity Task {
+        key id           : String(10);
+            title        : String(50);
+            status       : String(50);
+            note         : String(50);
+    };
+};
